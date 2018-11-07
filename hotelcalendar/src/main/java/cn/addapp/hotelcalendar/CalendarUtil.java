@@ -13,15 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.savvi.rangedatepicker;
+package cn.addapp.hotelcalendar;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
 
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
 
 /**
  * 一些日期辅助计算工具

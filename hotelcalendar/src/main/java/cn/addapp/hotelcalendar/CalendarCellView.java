@@ -1,11 +1,12 @@
 // Copyright 2013 Square, Inc.
 
-package com.savvi.rangedatepicker;
+package cn.addapp.hotelcalendar;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
 import android.widget.TextView;
+import com.savvi.rangedatepicker.R;
 
 public class CalendarCellView extends FrameLayout {
   private static final int[] STATE_SELECTABLE = {

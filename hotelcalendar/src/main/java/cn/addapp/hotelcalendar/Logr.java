@@ -1,6 +1,7 @@
-package com.savvi.rangedatepicker;
+package cn.addapp.hotelcalendar;
 
 import android.util.Log;
+import com.savvi.rangedatepicker.BuildConfig;
 
 /** Log utility class to handle the log tag and DEBUG-only logging. */
 final class Logr {

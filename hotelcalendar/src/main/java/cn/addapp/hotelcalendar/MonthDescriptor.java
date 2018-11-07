@@ -1,5 +1,5 @@
 // Copyright 2012 Square, Inc.
-package com.savvi.rangedatepicker;
+package cn.addapp.hotelcalendar;
 
 import java.util.Date;
 

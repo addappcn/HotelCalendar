@@ -1,11 +1,9 @@
 // Copyright 2012 Square, Inc.
-package com.savvi.rangedatepicker;
+package cn.addapp.hotelcalendar;
 
 import android.content.Context;
-import android.graphics.Color;
 import android.graphics.Typeface;
 import android.text.Layout;
-import android.text.format.DateUtils;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
@@ -13,11 +11,10 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.blankj.utilcode.util.SpanUtils;
-import com.blankj.utilcode.util.TimeUtils;
+import com.savvi.rangedatepicker.R;
 
 import java.text.DateFormat;
 import java.text.NumberFormat;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;

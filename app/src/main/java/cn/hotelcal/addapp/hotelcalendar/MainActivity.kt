@@ -11,7 +11,7 @@ import android.widget.TextView
 import cn.hotelcal.addapp.hotelcalendar.Common.FORMATTER_MM_DD
 import com.blankj.utilcode.util.ScreenUtils
 import com.blankj.utilcode.util.Utils
-import com.savvi.rangedatepicker.CalendarPickerView
+import cn.addapp.hotelcalendar.CalendarPickerView
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 

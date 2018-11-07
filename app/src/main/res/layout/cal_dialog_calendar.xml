@@ -46,7 +46,7 @@
             android:layout_height="1dp"
             android:background="@color/material_gray"
             />
-        <com.savvi.rangedatepicker.CalendarPickerView
+        <cn.addapp.hotelcalendar.CalendarPickerView
             android:id="@+id/calendar_view"
             android:layout_width="match_parent"
             android:layout_height="0dp"

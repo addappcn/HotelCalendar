@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<com.savvi.rangedatepicker.MonthView
+<cn.addapp.hotelcalendar.MonthView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -15,12 +15,12 @@
       android:gravity="center_horizontal"
       style="@style/CalendarTitle"
       />
-  <com.savvi.rangedatepicker.CalendarGridView
+  <cn.addapp.hotelcalendar.CalendarGridView
       android:id="@+id/calendar_grid"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       >
-    <com.savvi.rangedatepicker.CalendarRowView
+    <cn.addapp.hotelcalendar.CalendarRowView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="@dimen/calendar_day_headers_paddingbottom"
@@ -60,12 +60,12 @@
           android:layout_height="wrap_content"
           style="@style/CalendarCell.DayHeader"
           />
-    </com.savvi.rangedatepicker.CalendarRowView>
+    </cn.addapp.hotelcalendar.CalendarRowView>
     <include layout="@layout/week"/>
     <include layout="@layout/week"/>
     <include layout="@layout/week"/>
     <include layout="@layout/week"/>
     <include layout="@layout/week"/>
     <include layout="@layout/week"/>
-  </com.savvi.rangedatepicker.CalendarGridView>
-</com.savvi.rangedatepicker.MonthView>
+  </cn.addapp.hotelcalendar.CalendarGridView>
+</cn.addapp.hotelcalendar.MonthView>

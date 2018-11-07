@@ -1,7 +1,8 @@
-package com.savvi.rangedatepicker;
+package cn.addapp.hotelcalendar;
 
 import android.view.ContextThemeWrapper;
 import android.widget.TextView;
+import com.savvi.rangedatepicker.R;
 
 public class CustomDayViewAdapter implements DayViewAdapter {
   @Override

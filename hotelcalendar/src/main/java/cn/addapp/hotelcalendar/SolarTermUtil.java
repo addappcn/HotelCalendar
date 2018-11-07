@@ -13,9 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.savvi.rangedatepicker;
+package cn.addapp.hotelcalendar;
 
 import android.content.Context;
+import com.savvi.rangedatepicker.R;
 
 /**
  * http://www.cnblogs.com/moodlxs/archive/2010/12/18/2345392.html

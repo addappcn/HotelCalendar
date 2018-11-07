@@ -1,5 +1,5 @@
 // Copyright 2012 Square, Inc.
-package com.savvi.rangedatepicker;
+package cn.addapp.hotelcalendar;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -9,6 +9,7 @@ import android.graphics.Typeface;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
+import com.savvi.rangedatepicker.R;
 
 import static android.view.View.MeasureSpec.AT_MOST;
 import static android.view.View.MeasureSpec.EXACTLY;

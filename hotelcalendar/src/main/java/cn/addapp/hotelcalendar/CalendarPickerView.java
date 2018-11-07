@@ -1,5 +1,5 @@
 // Copyright 2012 Square, Inc.
-package com.savvi.rangedatepicker;
+package cn.addapp.hotelcalendar;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
+import com.savvi.rangedatepicker.R;
 
 import java.text.DateFormat;
 import java.text.DateFormatSymbols;
