@@ -1,4 +1,4 @@
-package com.savvi.rangedatepicker;
+package cn.addapp.hotelcalendar;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
