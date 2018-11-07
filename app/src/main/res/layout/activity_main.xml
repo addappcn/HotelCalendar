@@ -8,11 +8,12 @@
 
     <TextView
             android:id="@+id/tv_select_date"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:minHeight="50dp"
             android:gravity="center"
-        android:text="选择时间"
+            android:textSize="18sp"
+            android:text="选择时间"
             app:layout_constraintHorizontal_weight="1"
          />
 

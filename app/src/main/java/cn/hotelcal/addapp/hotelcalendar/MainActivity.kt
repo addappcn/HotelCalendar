@@ -67,6 +67,7 @@ class MainActivity : AppCompatActivity() {
         //            e.printStackTrace();
         //        }
 
+        val  tvCancel =   dialog.rootView.findViewById(R.id.tv_cancel) as   TextView
         val selectedDates = ArrayList<Date>()//上次选择的时间范围
         if (selectDates.size >= 2) {
             selectedDates.add(selectDates.get(0))
@@ -78,6 +79,9 @@ class MainActivity : AppCompatActivity() {
             //.withDeactivateDates(list)////表格第三列不可选择
             .withSelectedDates(selectedDates)//选中范围
 
+        tvCancel.setOnClickListener(View.OnClickListener {
+            dialog.dismiss()
+        })
         calendarView.setOnDateSelectedListener(object : CalendarPickerView.OnDateSelectedListener {
             @SuppressLint("SetTextI18n")
             override fun onDateSelected(date: Date) {
@@ -85,7 +89,7 @@ class MainActivity : AppCompatActivity() {
                 selectDates = calendarView.getSelectedDates() as ArrayList<Date>
                 if (selDates.size > 1) {
                     Handler().postDelayed({ dialog.dismiss() }, 600)
-                    tv_select_date.text = FORMATTER_MM_DD.format(selDates.get(0)) + "到" +
+                    tv_select_date.text = FORMATTER_MM_DD.format(selDates.get(0)) + " 到 " +
                             FORMATTER_MM_DD.format(selDates[selDates.size - 1])
                 }
             }
